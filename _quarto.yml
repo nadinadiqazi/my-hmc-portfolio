@@ -4,6 +4,7 @@ project:
   resources:
     - images/
     - documents/
+    - styles.css
 
 website:
   title: "Nadia Qazi Portfolio"
