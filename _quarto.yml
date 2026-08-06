@@ -1,0 +1,34 @@
+project:
+  type: website
+  resources:
+    - images/
+    - documents/
+
+website:
+  title: "Nadia Qazi Portfolio"
+  navbar:
+    title: "Nadia Qazi Portfolio"
+    right:
+      - href: index.qmd
+        text: Home
+      - href: class.qmd
+        text: Course Projects
+      - href: adam.qmd
+        text: Adaptive Design Projects
+      - href: research.qmd
+        text: Research
+      - href: documents/Nadia_Qazi_Resume.pdf
+        text: Resume
+
+format:
+  html:
+    theme:
+      - flatly
+      - brand
+    css: styles.css
+    toc: false
+    grid:
+      body-width: 1400px
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">

@@ -1,0 +1,57 @@
+---
+title: "Nadia Qazi"
+toc: false
+page-layout: full
+---
+
+<div style="text-align: center; padding: 3rem 0 2rem 0;">
+<h1 style="font-size: 2.5rem; font-weight: 700;">Nadia Qazi</h1>
+<p style="max-width: 700px; margin: 1rem auto; font-size: 1rem; line-height: 1.8;">
+Welcome to my Engineering Portfolio! I am a junior engineering student at <a href="https://www.hmc.edu/">Harvey Mudd College</a>, interested in mechanical engineering, specifically in product design engineering, industrial design, and manufacturing. I am currently a Lewis Professional Research Fellow conducting research on the effects of mechanical skin stretching and hydration on stratum corneum permeability, with the goal of improving transdermal drug delivery systems.
+</p>
+<div style="display: flex; gap: 1rem; justify-content: center; margin-top: 1.5rem;">
+<a href="mailto:nadiaqazitokyo@gmail.com" style="padding: 0.5rem 1rem; border: 1px solid #1a1a1a; border-radius: 6px; text-decoration: none; color: #1a1a1a; font-size: 0.9rem;">✉ Email</a>
+<a href="https://www.linkedin.com/in/nadia-qazi-a41628282/" style="padding: 0.5rem 1rem; border: 1px solid #1a1a1a; border-radius: 6px; text-decoration: none; color: #1a1a1a; font-size: 0.9rem;">LinkedIn</a>
+<a href="documents/Nadia_Qazi_Resume.pdf" style="padding: 0.5rem 1rem; border: 1px solid #1a1a1a; border-radius: 6px; text-decoration: none; color: #1a1a1a; font-size: 0.9rem;">📄 Resume</a>
+</div>
+</div>
+
+<h2 style="font-size: 1.6rem; font-weight: 700; border-bottom: 2px solid #1A7A4A; padding-bottom: 0.3rem; margin-top: 2rem;">Projects</h2>
+
+<div class="project-cards">
+<a href="class.qmd" class="project-card" style="position: relative; display: block; border-radius: 12px; overflow: hidden; text-decoration: none; color: #ffffff;">
+<img src="images/AUV.jpeg" style="width: 100%; height: 220px; object-fit: cover; display: block;" />
+<div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(transparent, rgba(0,0,0,0.75)); padding: 1rem 0.75rem 0.75rem;">
+<div style="font-weight: 700; font-size: 0.95rem; color: #ffffff;">Autonomous Underwater Vehicle</div>
+<div style="font-size: 0.78rem; opacity: 0.85; color: #ffffff; margin-top: 0.2rem;">E80: Experimental Engineering</div>
+</div>
+</a>
+<a href="class.qmd#hammer" class="project-card" style="position: relative; display: block; border-radius: 12px; overflow: hidden; text-decoration: none; color: #ffffff;">
+<img src="images/Hammer.png" style="width: 100%; height: 220px; object-fit: cover; display: block;" />
+<div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(transparent, rgba(0,0,0,0.75)); padding: 1rem 0.75rem 0.75rem;">
+<div style="font-weight: 700; font-size: 0.95rem; color: #ffffff;">Machinist Hammer</div>
+<div style="font-size: 0.78rem; opacity: 0.85; color: #ffffff; margin-top: 0.2rem;">E4: Manufacturing & Design</div>
+</div>
+</a>
+<a href="class.qmd#mobile-lectern-portal-mini-podium" class="project-card" style="position: relative; display: block; border-radius: 12px; overflow: hidden; text-decoration: none; color: #ffffff;">
+<img src="images/Mobile_Lectern.png" style="width: 100%; height: 220px; object-fit: cover; display: block;" />
+<div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(transparent, rgba(0,0,0,0.75)); padding: 1rem 0.75rem 0.75rem;">
+<div style="font-weight: 700; font-size: 0.95rem; color: #ffffff;">Mobile Lectern</div>
+<div style="font-size: 0.78rem; opacity: 0.85; color: #ffffff; margin-top: 0.2rem;">E4: Manufacturing & Design</div>
+</div>
+</a>
+<a href="adam.qmd" class="project-card" style="position: relative; display: block; border-radius: 12px; overflow: hidden; text-decoration: none; color: #ffffff;">
+<img src="images/TMT.png" style="width: 100%; height: 220px; object-fit: cover; display: block;" />
+<div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(transparent, rgba(0,0,0,0.75)); padding: 1rem 0.75rem 0.75rem;">
+<div style="font-weight: 700; font-size: 0.95rem; color: #ffffff;">Adaptive Design</div>
+<div style="font-size: 0.78rem; opacity: 0.85; color: #ffffff; margin-top: 0.2rem;">ADAM & Grant Work</div>
+</div>
+</a>
+<a href="research.qmd" class="project-card" style="position: relative; display: block; border-radius: 12px; overflow: hidden; text-decoration: none; color: #ffffff;">
+<img src="images/George_Extensometer_Solidworks_Model.png" style="width: 100%; height: 220px; object-fit: cover; display: block;" />
+<div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(transparent, rgba(0,0,0,0.75)); padding: 1rem 0.75rem 0.75rem;">
+<div style="font-weight: 700; font-size: 0.95rem; color: #ffffff;">Transdermal Research</div>
+<div style="font-size: 0.78rem; opacity: 0.85; color: #ffffff; margin-top: 0.2rem;">Lewis Research Fellowship</div>
+</div>
+</a>
+</div>

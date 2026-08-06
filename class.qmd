@@ -1,0 +1,142 @@
+---
+title: "Course Projects"
+toc: false
+---
+
+## E80: Experimental Engineering
+
+### Autonomous Underwater Vehicle (AUV)
+
+<div style="display: flex; gap: 3rem; align-items: flex-start; margin-bottom: 2rem;">
+<div style="width: 35%; flex-shrink: 0;">
+
+<img src="images/AUV.jpeg" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px;" />
+
+</div>
+<div style="width: 65%;">
+
+**Overview:**
+Designed and deployed a fully autonomous underwater vehicle (AUV) to profile light attenuation and temperature in kelp habitats at Dana Point Harbor, CA. Established baseline environmental data to track climate change impacts on kelp ecosystems over time.
+
+**Skills:**
+Arduino, MATLAB, Circuit Design, Soldering, Waterproofing, PVC Fabrication, Sensor Calibration
+
+**Team:** [Nathan d'Abreu Noronha](https://www.linkedin.com/in/nathan-d-abreu-noronha-42a2b3322/) | [William Ortega](https://www.linkedin.com/in/william-ortega-73aa02318/) | [Stephany Rodriguez](https://www.linkedin.com/in/stephany-rodriguez-856293245/)
+
+[Report](documents/Nadia_Qazi_E80_Report.pdf)
+
+</div>
+</div>
+
+::: {.callout-note collapse="true"}
+## Show More
+
+### What?
+
+- Built a fully autonomous underwater robot equipped with a pressure sensor, thermistor, and RGB light sensor to characterize the environmental conditions of kelp habitat at Dana Point Baby Beach Harbor.
+- Measured light attenuation across red, green, and blue channels down to 3 meters depth, with results consistent with Beer-Lambert law predictions.
+- Established baseline temperature and light intensity data to be compared against future measurements to track how climate change impacts kelp survival conditions.
+
+### How?
+
+- Designed op-amp amplification circuits for all three sensors (MPX5700 pressure sensor, Murata NTC thermistor, TCS34725 RGB sensor), each calibrated to the 0.3–3.3V ADC input range of a Teensy microcontroller.
+- Calibrated the pressure sensor using a saltwater-filled graduated cylinder, and fitted thermistor data to the Steinhart-Hart equation across an 11–22°C range.
+- Built the AUV frame from PVC pipe and connectors, centralizing all electronics in a waterproofed housing using epoxy penetrators, washers, and parafilm sealing.
+- Recovered from a mid-deployment water ingress failure by isolating the motherboard, redesigning the enclosure seal, and completing a third deployment using only the RGB sensor lowered manually via tether.
+
+### Results
+
+- AUV successfully reached 3 meters depth and held position for approximately 400 seconds before resurfacing.
+- RGB light attenuation results confirmed Beer-Lambert law predictions — red attenuated fastest (8.3% surface intensity at 3m), followed by green (9.7%) and blue (10.1%), consistent with known wavelength-dependent decay.
+- Temperature sensor malfunctioned during deployment due to physical damage from handling — pre-deployment calibration was successful, isolating the failure to external force rather than circuit error.
+- Data collected serves as a climate baseline for Dana Point kelp habitat, intended for comparison against measurements in 2030, 2035, and 2040.
+
+:::
+
+---
+
+## E4: Introduction to Manufacturing and Design
+
+### Mobile Lectern — Portal Mini Podium
+
+<div style="display: flex; gap: 3rem; align-items: flex-start; margin-bottom: 2rem;">
+<div style="width: 35%; flex-shrink: 0;">
+
+<img src="images/Mobile_Lectern.png" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px;" />
+
+</div>
+<div style="width: 65%;">
+
+**Overview:**
+Designed and built a portable, adjustable mini podium as a team project in E4, applying the full product design process from concept through fabrication.
+
+**Skills:**
+SolidWorks, Lathe, Mill, Bandsaw, Table Saw, GD&T, Rapid Prototyping
+
+
+**Team:** [Nikita Gupta](https://www.linkedin.com/in/nikita-gupta101/) | [William Ortega](https://www.linkedin.com/in/william-ortega-73aa02318/) | [Siran Rao](https://www.linkedin.com/in/siran-rao/)
+
+[Report](documents/Nadia_Qazi_E4_Prototype_Memo.pdf)
+
+</div>
+</div>
+
+::: {.callout-note collapse="true"}
+## Show More
+
+### What?
+
+- Designed a compact, mobile podium to serve as a portable presentation stand, balancing stability, portability, and ease of assembly.
+
+### How?
+
+- CAD-modeled the full assembly in SolidWorks and produced technical drawings prior to fabrication.
+- Machined and assembled components using lathe, mill, and woodshop tools; iterated on design based on fit and function testing.
+
+### Results
+
+- Delivered a functional mobile lectern meeting project specifications.
+- Gained experience translating a CAD design into a physical product under real material and tolerance constraints.
+
+:::
+
+---
+
+### Hammer
+
+<div style="display: flex; gap: 3rem; align-items: flex-start; margin-bottom: 2rem;">
+<div style="width: 35%; flex-shrink: 0;">
+
+<img src="images/Hammer.png" style="width: 100%; height: 650px; object-fit: cover; border-radius: 8px;" />
+
+</div>
+<div style="width: 65%;">
+
+**Overview:**
+Manufactured a functional machinist hammer from scratch following strict GD&T technical specifications, as part of the HMC Machine Shop E4 curriculum.
+
+**Skills:**
+Lathe, Mill, Bandsaw, Heat Treatment, Digital Micrometers, GD&T, Laser Etching
+
+</div>
+</div>
+
+::: {.callout-note collapse="true"}
+## Show More
+
+### What?
+
+- Machined a fully functional hammer from steel and wood stock, adhering to precise dimensional tolerances specified in technical drawings.
+- Completed three major fabrication phases independently, managing shop time and sequencing operations to meet deadlines.
+
+### How?
+
+- Turned and faced steel head stock to length on the lathe; milled faces and handle bore to tolerance, verified with digital micrometers.
+- Heat treated the hardface to increase durability and laser etched a custom design onto the wooden handle.
+
+### Results
+
+- Produced a durable, precise machinist hammer that met E4 course specifications.
+- Developed foundational machining skills — lathe, mill, heat treatment — that directly support hands-on product engineering work.
+
+:::
