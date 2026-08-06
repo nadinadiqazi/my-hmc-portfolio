@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Principal Investigator: Professor Nancy Lape | Harvey Mudd College\nRole: Undergraduate Researcher | Lewis Professional Research Fellow\nFunded by: The Patton and Claire Lewis Fellowship in Engineering Professional Practice, the Norman F. Sprague III M.D. Experiential Learning Fund, and the Rose Hills Foundation\nTransdermal drug delivery (TDD) is a non-invasive method of drug administration that involves applying topical medications to skin at appropriate drug doses. The challenge of TDD is permeating the stratum corneum (SC), the outermost layer of the epidermis that functions as the skin’s barrier against external toxins and pathogens. Our lab investigates how mechanical stretching of the stratum corneum affects its permeability, with the goal of improving transdermal drug delivery systems. I contribute to two research subteamsubsections: the TEWL Device Development and Skin Mold Imaging in addition to the George uniaxial extensometer team."
+  },
+  {
+    "objectID": "research.html#transdermal-transport-research-lab",
+    "href": "research.html#transdermal-transport-research-lab",
+    "title": "Research",
+    "section": "",
+    "text": "Principal Investigator: Professor Nancy Lape | Harvey Mudd College\nRole: Undergraduate Researcher | Lewis Professional Research Fellow\nFunded by: The Patton and Claire Lewis Fellowship in Engineering Professional Practice, the Norman F. Sprague III M.D. Experiential Learning Fund, and the Rose Hills Foundation\nTransdermal drug delivery (TDD) is a non-invasive method of drug administration that involves applying topical medications to skin at appropriate drug doses. The challenge of TDD is permeating the stratum corneum (SC), the outermost layer of the epidermis that functions as the skin’s barrier against external toxins and pathogens. Our lab investigates how mechanical stretching of the stratum corneum affects its permeability, with the goal of improving transdermal drug delivery systems. I contribute to two research subteamsubsections: the TEWL Device Development and Skin Mold Imaging in addition to the George uniaxial extensometer team."
+  },
+  {
+    "objectID": "research.html#tewl-device-skin-mold-imaging",
+    "href": "research.html#tewl-device-skin-mold-imaging",
+    "title": "Research",
+    "section": "TEWL Device & Skin Mold Imaging",
+    "text": "TEWL Device & Skin Mold Imaging\n\n\n\n\n\nOverview: Transepidermal water loss (TEWL) measures the passive diffusion of water vapor out of the stratum corneum and is used to characterize skin permeability. Commercial TEWL devices cost $8,000–$12,000 and fail to account for changes in skin surface area during stretching. Our team is developing a custom-built TEWL measuring device and a skin mold imaging procedure to normalize TEWL values against real surface area measurements.\nMy Contributions: - Designed and built a custom TEWL measuring device using a relative humidity sensor, thermocouple, micropump, and 3D-printed resin chamber - Created ExaFlex skin molds of participants under stretched and unstretched conditions - Processed skin mold Z-stacks using Fiji and BoneJ to calculate surface area\nSkills: SolidWorks, Resin Printing, Circuit Design, Arduino, MATLAB, Fiji/ImageJ, Confocal Laser Scanning Microscopy (CLSM)\nTeam: Katie Latvakoski | Angie Hou | Justin Huang | Talia Green\n\n\n\n📄 TEWL Poster 📄 TEWL Technical Memo 📄 Skin Mold Imaging Memo\n\n\n\n\n\n\n\nNoteShow More\n\n\n\n\n\n\nWhat?\n\nSkin mechanical properties are critical for cosmetics, scar management, and biomimetic material design. Our lab investigates how uniaxial stretching of the stratum corneum alters its permeability.\nTEWL measures the passive diffusion of water vapor out of the SC and is used as an indicator of skin barrier function and permeability.\nCommercial TEWL devices are expensive and do not account for changes in skin surface area during stretching, so our lab developed its own device and imaging procedure.\n\n\n\nHow?\n\nBuilt a custom closed-chamber TEWL device composed of a type-K thermocouple, relative humidity sensor, micropump, 3.7V LiPo battery, and a resin-printed TEWL chamber.\nCalibrated the device using a wet-cup method, generating a calibration curve mapping RH sensor readings to TEWL values in g/(m²·h).\nCreated ExaFlex skin molds from participants under stretched and unstretched conditions using a 3D-printed skin molding template.\nImaged molds with the Zeiss LSM510 Confocal Laser Scanning Microscope (CLSM) and processed Z-stacks in Fiji using Gaussian blur, binarization, and BoneJ surface area analysis.\n\n\n\nResults\n\nIdentified that the micropump produces insufficient airflow to flush the TEWL chamber — alternative pump strategies are being explored.\nFound that the RH sensor has a response time of &gt;80s at non-standard temperatures, prompting a search for an alternative absolute humidity sensor.\nImproved image processing pipeline by implementing Auto Exposure on the CLSM, optimizing Gaussian blur sigma radius, and experimenting with binarization methods.\nCreated a control skin mold with known surface area to benchmark image processing settings."
+  },
+  {
+    "objectID": "research.html#george-uniaxial-extensometer",
+    "href": "research.html#george-uniaxial-extensometer",
+    "title": "Research",
+    "section": "George — Uniaxial Extensometer",
+    "text": "George — Uniaxial Extensometer\n\n\n\n\n\nOverview: George is a lab-built in vivo uniaxial extensometer that stretches the skin on the ventral forearm to characterize its mechanical properties. By performing creep and stress relaxation tests, the team fits fractional viscoelastic models to describe how skin deforms under force — data that has direct implications for transdermal drug delivery research.\nMy Contributions: - Conducted creep and stress relaxation tests on participants using George - Processed experimental data in MATLAB and fitted fractional Kelvin-Voigt (FKV) and fractional Poynting-Thomas (FPT) models to characterize skin mechanical properties - Contributed to mechanical design updates including dual armrests, aluminum tabs, and calibration slider tool to improve test consistency and comfort\nSkills: MATLAB, SolidWorks, Fractional Viscoelastic Modeling, Data Analysis, Human Subjects Testing\nTeam: Katie Latvakoski | Justin Huang | Talia Green\n\n\n\n📄 George Poster 📄 George Techical Memorandum\n\n\n\n\n\n\n\nNoteShow More\n\n\n\n\n\n\nWhat?\n\nGeorge is a lab-built uniaxial extensometer that stretches skin in vivo on the ventral forearm to measure its viscoelastic mechanical properties.\nTwo tests are performed: creep (constant force, measuring displacement over time) and stress relaxation (constant strain, measuring force over time).\nFractional viscoelastic models — the FKV and FPT models — are fitted to the data to characterize skin behavior with fewer parameters than standard spring-damper models.\n\n\n\nHow?\n\nConducted participant testing using George, applying 20% and 40% strain conditions.\nProcessed raw sensor data in MATLAB and fitted FKV and FPT models, evaluating fit quality using normalized root mean square error (NRMSE).\nContributed to mechanical design improvements: dual armrests for stability, aluminum tabs for consistent skin contact, and a calibration slider tool to simplify tab calibration.\n\n\n\nResults\n\nThe FKV model fits stress relaxation data well, enabling interpretable comparisons of skin mechanical properties between and within participants.\nThe FPT model captures the initial creep behavior but introduces ringing between 0–25 seconds — further model refinement is needed.\nMechanical design updates improved test reliability and participant comfort, setting the stage for larger-scale data collection across age groups."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Nadia Qazi",
+    "section": "",
+    "text": "Nadia Qazi\n\n\nWelcome to my Engineering Portfolio! I am a junior engineering student at Harvey Mudd College, interested in mechanical engineering, specifically in product design engineering, industrial design, and manufacturing. I am currently a Lewis Professional Research Fellow conducting research on the effects of mechanical skin stretching and hydration on stratum corneum permeability, with the goal of improving transdermal drug delivery systems.\n\n\n✉ Email LinkedIn 📄 Resume\n\n\n\nProjects\n\n\n \n\n\nAutonomous Underwater Vehicle\n\n\nE80: Experimental Engineering\n\n\n  \n\n\nMachinist Hammer\n\n\nE4: Manufacturing & Design\n\n\n  \n\n\nMobile Lectern\n\n\nE4: Manufacturing & Design\n\n\n  \n\n\nAdaptive Design\n\n\nADAM & Grant Work\n\n\n  \n\n\nTransdermal Research\n\n\nLewis Research Fellowship"
+  },
+  {
+    "objectID": "adam.html",
+    "href": "adam.html",
+    "title": "Adaptive Design at Mudd (ADAM)",
+    "section": "",
+    "text": "Modern assistive technology too often serves only able-bodied individuals, leaving those with physical limitations without affordable, personalized solutions. Through my involvement with Adaptive Design at Mudd (ADAM) and independently funded research, I have been working towards designing and building low-cost adaptive tools that increase the independence and dignity of individuals with disabilities."
+  },
+  {
+    "objectID": "adam.html#adam-club-work",
+    "href": "adam.html#adam-club-work",
+    "title": "Adaptive Design at Mudd (ADAM)",
+    "section": "ADAM — Club Work",
+    "text": "ADAM — Club Work\nAdaptive Design at Mudd (ADAM) is a student-run engineering club at Harvey Mudd College focused on designing accessible tools for individuals with disabilities. As Co-President and TOM Fellow, I lead engineering teams, organize community events, and connect our work to the people who need it most.\nRole: Co-President | TOM Fellow\nCommunity Impact: 100+ children and individuals with disabilities impacted through events and tool delivery\n\n\nJar Seal Opener\n\n\n\n\n\nA lightweight seal opener designed for individuals with limited dexterity and fine motor skills.\nDesigned to be minimal and easy to use, this tool snaps onto jar lids and provides enough leverage to break the seal with one hand. Fabricated using PLA and sized to fit a nutella jar.\nSTL File 1\n\n\n\n\n\nTMT Build Party\n\n\n\n\n\nA community build event assembling 3D-printed toddler mobility chairs for children under 5 who do not qualify for wheelchairs under insurance.\nIn collaboration with TOM Fellows from across Southern California, we assembled and distributed toddler mobility chairs to community members across the region, including a local elementary school. These chairs give young children the independence to explore their environment without relying entirely on caregivers.\nTMT Build Guide"
+  },
+  {
+    "objectID": "adam.html#summer-grant-work-ben-huppee-strauss-community-engagement-grant",
+    "href": "adam.html#summer-grant-work-ben-huppee-strauss-community-engagement-grant",
+    "title": "Adaptive Design at Mudd (ADAM)",
+    "section": "Summer Grant Work — Ben Huppee & Strauss Community Engagement Grant",
+    "text": "Summer Grant Work — Ben Huppee & Strauss Community Engagement Grant\nIn the summer of 2025, I received the Ben Huppee & Strauss Community Engagement Grant to continue developing adaptive tools independently. Over the course of the summer, I designed, CAD-modeled, and 3D printed customized assistive devices for 50+ seniors served by AgingNext, managing all aspects of the project from research and budgeting to stakeholder coordination and final delivery.\nPoster\n\n\nChopsticks to Tongs Converter\n\n\n\n\n\nA portable TPU converter that transforms standard single-use chopsticks into tongs for individuals with limited fine motor skills.\nDesigned for a stroke survivor with hemiplegia, this tool enables continued use of chopsticks — a preferred utensil — without expensive adaptive alternatives. Made from waterproof TPU, it is compact, durable, and sized to fit standard restaurant chopsticks.\nSTL File | SolidWorks File\n\n\n\n\n\nProject 2: Four Kings Card Holder\n\n\n –&gt;\n\n\nDesigned for those with limited fine motor skills who enjoys playing four kings but struggle to pick up cards from off the table.\nThe material is composed of PLA and requires assembly. Each divider must be plaecd in a slot for compelte assembly. The assembly was designed intentially for easy printing and easy transportation.\nSTL File 1 | SolidWorks File 1\nSTL File 2 | SolidWorks File 2\n\n\n\n\n\nProject 3: Adjustable Spoon\n\n\n\n\n\nAn spoon made so users can adjust the angles of the spoons rotation depending on the meal being eaten.\nThis allows users who struggle with dexterity and mobility to eat with adaptive tools that are customizable for their needs. THis device is made up of TPU and a plastic spoon head from the dollar store DAISO and is dishwasher safe.\nSTL File 1 | SolidWorks File 1\nSTL File 1 | SolidWorks File 1\n\n\n\n\n\nProject 4: Puzzle Scooper\n\n\n\n\n\nThis puzzle scooper is an easy way for individausl who struggle to pick up small puzzle peices to do so with ease.\nThis tool is composed of two pieces similar to a dustpan but scaled down. It is easy to print and has several hand holding options making it easy for users to hold both objects.\nSTL File 1 | SolidWorks File 1\nSTL File 2 | SolidWorks File 2"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "class.html",
+    "href": "class.html",
+    "title": "Course Projects",
+    "section": "",
+    "text": "Overview: Designed and deployed a fully autonomous underwater vehicle (AUV) to profile light attenuation and temperature in kelp habitats at Dana Point Harbor, CA. Established baseline environmental data to track climate change impacts on kelp ecosystems over time.\nSkills: Arduino, MATLAB, Circuit Design, Soldering, Waterproofing, PVC Fabrication, Sensor Calibration\nTeam: Nathan d’Abreu Noronha | William Ortega | Stephany Rodriguez\nReport\n\n\n\n\n\n\n\n\nNoteShow More\n\n\n\n\n\n\n\n\nBuilt a fully autonomous underwater robot equipped with a pressure sensor, thermistor, and RGB light sensor to characterize the environmental conditions of kelp habitat at Dana Point Baby Beach Harbor.\nMeasured light attenuation across red, green, and blue channels down to 3 meters depth, with results consistent with Beer-Lambert law predictions.\nEstablished baseline temperature and light intensity data to be compared against future measurements to track how climate change impacts kelp survival conditions.\n\n\n\n\n\nDesigned op-amp amplification circuits for all three sensors (MPX5700 pressure sensor, Murata NTC thermistor, TCS34725 RGB sensor), each calibrated to the 0.3–3.3V ADC input range of a Teensy microcontroller.\nCalibrated the pressure sensor using a saltwater-filled graduated cylinder, and fitted thermistor data to the Steinhart-Hart equation across an 11–22°C range.\nBuilt the AUV frame from PVC pipe and connectors, centralizing all electronics in a waterproofed housing using epoxy penetrators, washers, and parafilm sealing.\nRecovered from a mid-deployment water ingress failure by isolating the motherboard, redesigning the enclosure seal, and completing a third deployment using only the RGB sensor lowered manually via tether.\n\n\n\n\n\nAUV successfully reached 3 meters depth and held position for approximately 400 seconds before resurfacing.\nRGB light attenuation results confirmed Beer-Lambert law predictions — red attenuated fastest (8.3% surface intensity at 3m), followed by green (9.7%) and blue (10.1%), consistent with known wavelength-dependent decay.\nTemperature sensor malfunctioned during deployment due to physical damage from handling — pre-deployment calibration was successful, isolating the failure to external force rather than circuit error.\nData collected serves as a climate baseline for Dana Point kelp habitat, intended for comparison against measurements in 2030, 2035, and 2040."
+  },
+  {
+    "objectID": "class.html#e80-experimental-engineering",
+    "href": "class.html#e80-experimental-engineering",
+    "title": "Course Projects",
+    "section": "",
+    "text": "Overview: Designed and deployed a fully autonomous underwater vehicle (AUV) to profile light attenuation and temperature in kelp habitats at Dana Point Harbor, CA. Established baseline environmental data to track climate change impacts on kelp ecosystems over time.\nSkills: Arduino, MATLAB, Circuit Design, Soldering, Waterproofing, PVC Fabrication, Sensor Calibration\nTeam: Nathan d’Abreu Noronha | William Ortega | Stephany Rodriguez\nReport\n\n\n\n\n\n\n\n\nNoteShow More\n\n\n\n\n\n\n\n\nBuilt a fully autonomous underwater robot equipped with a pressure sensor, thermistor, and RGB light sensor to characterize the environmental conditions of kelp habitat at Dana Point Baby Beach Harbor.\nMeasured light attenuation across red, green, and blue channels down to 3 meters depth, with results consistent with Beer-Lambert law predictions.\nEstablished baseline temperature and light intensity data to be compared against future measurements to track how climate change impacts kelp survival conditions.\n\n\n\n\n\nDesigned op-amp amplification circuits for all three sensors (MPX5700 pressure sensor, Murata NTC thermistor, TCS34725 RGB sensor), each calibrated to the 0.3–3.3V ADC input range of a Teensy microcontroller.\nCalibrated the pressure sensor using a saltwater-filled graduated cylinder, and fitted thermistor data to the Steinhart-Hart equation across an 11–22°C range.\nBuilt the AUV frame from PVC pipe and connectors, centralizing all electronics in a waterproofed housing using epoxy penetrators, washers, and parafilm sealing.\nRecovered from a mid-deployment water ingress failure by isolating the motherboard, redesigning the enclosure seal, and completing a third deployment using only the RGB sensor lowered manually via tether.\n\n\n\n\n\nAUV successfully reached 3 meters depth and held position for approximately 400 seconds before resurfacing.\nRGB light attenuation results confirmed Beer-Lambert law predictions — red attenuated fastest (8.3% surface intensity at 3m), followed by green (9.7%) and blue (10.1%), consistent with known wavelength-dependent decay.\nTemperature sensor malfunctioned during deployment due to physical damage from handling — pre-deployment calibration was successful, isolating the failure to external force rather than circuit error.\nData collected serves as a climate baseline for Dana Point kelp habitat, intended for comparison against measurements in 2030, 2035, and 2040."
+  },
+  {
+    "objectID": "class.html#e4-introduction-to-manufacturing-and-design",
+    "href": "class.html#e4-introduction-to-manufacturing-and-design",
+    "title": "Course Projects",
+    "section": "E4: Introduction to Manufacturing and Design",
+    "text": "E4: Introduction to Manufacturing and Design\n\nMobile Lectern — Portal Mini Podium\n\n\n\n\n\nOverview: Designed and built a portable, adjustable mini podium as a team project in E4, applying the full product design process from concept through fabrication.\nSkills: SolidWorks, Lathe, Mill, Bandsaw, Table Saw, GD&T, Rapid Prototyping\nTeam: Nikita Gupta | William Ortega | Siran Rao\nReport\n\n\n\n\n\n\n\n\nNoteShow More\n\n\n\n\n\n\nWhat?\n\nDesigned a compact, mobile podium to serve as a portable presentation stand, balancing stability, portability, and ease of assembly.\n\n\n\nHow?\n\nCAD-modeled the full assembly in SolidWorks and produced technical drawings prior to fabrication.\nMachined and assembled components using lathe, mill, and woodshop tools; iterated on design based on fit and function testing.\n\n\n\nResults\n\nDelivered a functional mobile lectern meeting project specifications.\nGained experience translating a CAD design into a physical product under real material and tolerance constraints.\n\n\n\n\n\n\n\n\nHammer\n\n\n\n\n\nOverview: Manufactured a functional machinist hammer from scratch following strict GD&T technical specifications, as part of the HMC Machine Shop E4 curriculum.\nSkills: Lathe, Mill, Bandsaw, Heat Treatment, Digital Micrometers, GD&T, Laser Etching\n\n\n\n\n\n\n\n\nNoteShow More\n\n\n\n\n\n\nWhat?\n\nMachined a fully functional hammer from steel and wood stock, adhering to precise dimensional tolerances specified in technical drawings.\nCompleted three major fabrication phases independently, managing shop time and sequencing operations to meet deadlines.\n\n\n\nHow?\n\nTurned and faced steel head stock to length on the lathe; milled faces and handle bore to tolerance, verified with digital micrometers.\nHeat treated the hardface to increase durability and laser etched a custom design onto the wooden handle.\n\n\n\nResults\n\nProduced a durable, precise machinist hammer that met E4 course specifications.\nDeveloped foundational machining skills — lathe, mill, heat treatment — that directly support hands-on product engineering work."
+  },
+  {
+    "objectID": "portfolio.html",
+    "href": "portfolio.html",
+    "title": "Hello, Quarto",
+    "section": "",
+    "text": "Markdown is an easy to read and write text format:\n\nIt’s plain text so works well with version control\nIt can be rendered into HTML, PDF, and more\nLearn more at: https://quarto.org/docs/authoring/"
+  },
+  {
+    "objectID": "portfolio.html#markdown",
+    "href": "portfolio.html#markdown",
+    "title": "Hello, Quarto",
+    "section": "",
+    "text": "Markdown is an easy to read and write text format:\n\nIt’s plain text so works well with version control\nIt can be rendered into HTML, PDF, and more\nLearn more at: https://quarto.org/docs/authoring/"
+  },
+  {
+    "objectID": "portfolio.html#code-cell",
+    "href": "portfolio.html#code-cell",
+    "title": "Hello, Quarto",
+    "section": "Code Cell",
+    "text": "Code Cell\nHere is a Python code cell:\n\nimport os\nos.cpu_count()\n\n14"
+  },
+  {
+    "objectID": "portfolio.html#equation",
+    "href": "portfolio.html#equation",
+    "title": "Hello, Quarto",
+    "section": "Equation",
+    "text": "Equation\nUse LaTeX to write equations:\n\\[\n\\chi' = \\sum_{i=1}^n k_i s_i^2\n\\]"
+  }
+]
